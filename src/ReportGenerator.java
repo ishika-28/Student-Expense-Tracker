@@ -4,7 +4,7 @@ import java.util.Map;
 public class ReportGenerator {
     public void generate(ExpenseManager manager) {
         if (manager.getExpenses().isEmpty()) {
-            System.out.println("No expenses available for the report.");
+            System.out.println("No expenses are available for the report.");
             return;
         }
 
@@ -23,7 +23,7 @@ public class ReportGenerator {
             categoryTotals.put(expense.getCategory(), oldValue + expense.getAmount());
         }
 
-        System.out.println("\n--- Expense Report ---");
+        System.out.println("Expense Report ");
         System.out.println("Total Expense: Rs." + total);
 
         System.out.println("\nCategory-wise Expense:");
