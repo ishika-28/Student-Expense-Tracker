@@ -12,10 +12,10 @@ public class Main {
             System.out.println("\n==============================");
             System.out.println("       STUDENT EXPENSE TRACKER");
             System.out.println("==============================");
-            System.out.println("1. Add Expense");
-            System.out.println("2. View Expenses");
-            System.out.println("3. Search by Category");
-            System.out.println("4. Search by Date");
+            System.out.println("1. Add Your Expense");
+            System.out.println("2. View Your Expenses");
+            System.out.println("3. Search Expense by Category");
+            System.out.println("4. Search Expense by Date");
             System.out.println("5. Delete Expense");
             System.out.println("6. Generate Report");
             System.out.println("7. Exit");
